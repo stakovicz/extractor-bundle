@@ -1,0 +1,29 @@
+{
+    "name": "albin/extractor-bundle",
+    "description": "Extractor",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Albin\\ExtractorBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Albin\\ExtractorBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stakovicz",
+            "email": "albin@les-tilleuls.coop"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "8.2.*",
+        "twig/twig": "4.x-dev",
+        "symfony/http-kernel": "7.3.x-dev",
+        "symfony/dependency-injection": "7.3.x-dev"
+    }
+}
